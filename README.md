@@ -4,8 +4,8 @@
 
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-repo/ecommerce-app.git
-   cd ecommerce-app
+   git clone E-Commerce-App-with-Dockerized-Multi-Tier-Architecture.git
+   cd E-Commerce-App-with-Dockerized-Multi-Tier-Architecture
    ```
 
 2. **Build and Run Containers**:  

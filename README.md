@@ -1,9 +1,3 @@
-# E-Commerce-App-with-Dockerized-Multi-Tier-Architecture
-
-Here’s a detailed advanced Docker project along with example code snippets:
-
----
-
 ### **Project Name**: "E-Commerce App with Dockerized Multi-Tier Architecture"
 
 ---

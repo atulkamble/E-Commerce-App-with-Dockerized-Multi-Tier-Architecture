@@ -1,4 +1,37 @@
 ### **Project Name**: "E-Commerce App with Dockerized Multi-Tier Architecture"
+
+### **Running the Project**  
+
+1. **Clone the Repository**:  
+   ```bash
+   git clone https://github.com/your-repo/ecommerce-app.git
+   cd ecommerce-app
+   ```
+
+2. **Build and Run Containers**:  
+   ```bash
+   docker-compose up --build
+   ```
+
+3. **Access the Application**:  
+   - **Frontend**: [http://localhost:3000](http://localhost:3000)  
+   - **Backend**: [http://localhost:5000](http://localhost:5000)  
+
+4. **Database**:  
+   - Connect to PostgreSQL using a client like DBeaver or pgAdmin:  
+     - Host: `localhost`  
+     - Port: `5432`  
+     - User: `postgres`  
+     - Password: `password`  
+
+---
+
+### **Monitoring (Prometheus & Grafana)**  
+1. Add Prometheus and Grafana services to `docker-compose.yml`.  
+2. Use a pre-configured Prometheus config file and Grafana dashboards.  
+
+Would you like me to assist with adding **Prometheus and Grafana** for monitoring or further features like **Kubernetes deployment**?
+
 ---
 
 ### **Overview**  
@@ -182,37 +215,4 @@ services:
 volumes:
   db_data:
 ```
-
 ---
-
-### **Running the Project**  
-
-1. **Clone the Repository**:  
-   ```bash
-   git clone https://github.com/your-repo/ecommerce-app.git
-   cd ecommerce-app
-   ```
-
-2. **Build and Run Containers**:  
-   ```bash
-   docker-compose up --build
-   ```
-
-3. **Access the Application**:  
-   - **Frontend**: [http://localhost:3000](http://localhost:3000)  
-   - **Backend**: [http://localhost:5000](http://localhost:5000)  
-
-4. **Database**:  
-   - Connect to PostgreSQL using a client like DBeaver or pgAdmin:  
-     - Host: `localhost`  
-     - Port: `5432`  
-     - User: `postgres`  
-     - Password: `password`  
-
----
-
-### **Monitoring (Prometheus & Grafana)**  
-1. Add Prometheus and Grafana services to `docker-compose.yml`.  
-2. Use a pre-configured Prometheus config file and Grafana dashboards.  
-
-Would you like me to assist with adding **Prometheus and Grafana** for monitoring or further features like **Kubernetes deployment**?

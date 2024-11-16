@@ -4,7 +4,7 @@
 
 1. **Clone the Repository**:  
    ```bash
-   git clone E-Commerce-App-with-Dockerized-Multi-Tier-Architecture.git
+   git clone https://github.com/atulkamble/E-Commerce-App-with-Dockerized-Multi-Tier-Architecture.git
    cd E-Commerce-App-with-Dockerized-Multi-Tier-Architecture
    ```
 
